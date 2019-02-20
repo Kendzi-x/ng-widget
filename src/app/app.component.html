@@ -1,0 +1,17 @@
+<h1>Hot Weather Widget</h1>
+<div class="element">
+  <div class="element-left">
+    <app-attractions-widget (attrSelected)="attrSelected($event)"></app-attractions-widget>
+  </div>
+  <div class="element-right">
+    <app-weather-widget [currentWeather]="selectedWeather"></app-weather-widget>
+    <app-social-widget [currentSocial]="selectedSocial"></app-social-widget>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="copy-right">
+  <p>
+    © 2019 Hot Weather Widget. All rights reserved | Design by
+    <a href="http://w3layouts.com/" target="_blank"> W3layouts </a>
+  </p>
+</div>
