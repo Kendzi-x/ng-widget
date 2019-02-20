@@ -27,7 +27,7 @@ export interface IData {
 export const attractions: IData[] = [
   {
       name: 'Hotel 1',
-      img: '../../../assets/images/1.JPG',
+      img: 'assets/images/1.JPG',
       address: 'Lorem ipsum',
       phone:  810358968999666,
       weather: {
@@ -38,7 +38,7 @@ export const attractions: IData[] = [
       },
       social: {
           title: 'Hotel 1 social',
-          img: '../../../assets/images/1_1.JPG',
+          img: 'assets/images/1_1.JPG',
           followers: 456,
           following: 876
       },
@@ -46,7 +46,7 @@ export const attractions: IData[] = [
   },
   {
       name: 'Hotel 2',
-      img: '../../../assets/images/2.JPG',
+      img: 'assets/images/2.JPG',
       address: 'lorem ipsum',
       phone:  8106676340106,
       weather: {
@@ -57,7 +57,7 @@ export const attractions: IData[] = [
       },
       social: {
           title: 'Hotel 2 social',
-          img: '../../../assets/images/2_2.JPG',
+          img: 'assets/images/2_2.JPG',
           followers: 1899,
           following: 3434
       },
@@ -65,7 +65,7 @@ export const attractions: IData[] = [
   },
   {
       name: 'Fishing 1',
-      img: '../../../assets/images/3.JPG',
+      img: 'assets/images/3.JPG',
       address: 'lorem ipsum',
       phone:  74012307207,
       weather: {
@@ -76,7 +76,7 @@ export const attractions: IData[] = [
       },
       social: {
           title: 'Fishing 1 social',
-          img: '../../../assets/images/3_2.JPG',
+          img: 'assets/images/3_2.JPG',
           followers: 344,
           following: 4343
       },
@@ -84,7 +84,7 @@ export const attractions: IData[] = [
   },
   {
       name: 'Fishing 2',
-      img: '../../../assets/images/4.JPG',
+      img: 'assets/images/4.JPG',
       address: 'lorem ipsum',
       phone:  79140226851,
       weather: {
@@ -95,7 +95,7 @@ export const attractions: IData[] = [
       },
       social: {
           title: 'Fishing 2 social',
-          img: '../../../assets/images/4_2.JPG',
+          img: 'assets/images/4_2.JPG',
           followers: 154,
           following: 687
       },
@@ -103,7 +103,7 @@ export const attractions: IData[] = [
   },
   {
       name: 'Tour 1',
-      img: '../../../assets/images/5.JPG',
+      img: 'assets/images/5.JPG',
       address: 'lorem ipsum',
       phone:  493051050030,
       weather: {
@@ -114,7 +114,7 @@ export const attractions: IData[] = [
       },
       social: {
           title: 'Tour 1 social',
-          img: '../../../assets/images/5_2.JPG',
+          img: 'assets/images/5_2.JPG',
           followers: 38383,
           following: 39838
       },
@@ -122,7 +122,7 @@ export const attractions: IData[] = [
   },
   {
       name: 'Tour 2',
-      img: '../../../assets/images/6.JPG',
+      img: 'assets/images/6.JPG',
       address: 'lorem ipsum',
       phone:  34622940471,
       weather: {
@@ -133,7 +133,7 @@ export const attractions: IData[] = [
       },
       social: {
           title: 'Tour 2 social',
-          img: '../../../assets/images/6_2.JPG',
+          img: 'assets/images/6_2.JPG',
           followers: 3434,
           following: 8484
       },
