@@ -7,6 +7,8 @@ import { WeatherWidgetComponent } from './weather-widget/weather-widget.componen
 import { SocialWidgetComponent } from './social-widget/social-widget.component';
 import { UniquetypePipe } from './common/pipes/uniquetype.pipe';
 import { FilterTypePipe } from './common/pipes/filter-type.pipe';
+import { AttractionsListComponent } from './attractions-widget/attractions-list/attractions-list.component';
+import { AttractionItemComponent } from './attractions-widget/attractions-list/attraction-item/attraction-item.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FilterTypePipe } from './common/pipes/filter-type.pipe';
     WeatherWidgetComponent,
     SocialWidgetComponent,
     UniquetypePipe,
-    FilterTypePipe
+    FilterTypePipe,
+    AttractionsListComponent,
+    AttractionItemComponent
   ],
   imports: [
     BrowserModule

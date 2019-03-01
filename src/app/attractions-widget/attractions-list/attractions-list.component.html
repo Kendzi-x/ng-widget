@@ -1,0 +1,12 @@
+<div class="activity_box">
+  <div class="scrollbar" id="style-2">
+    <div
+      class="activity-row"
+      style="cursor: pointer;"
+      *ngFor="let attr of (attractions | filterType: currentType)"
+      (click)="selectAttr(attr)"
+    >
+      <app-attraction-item [attr]="attr"></app-attraction-item>
+    </div>
+  </div>
+</div>
